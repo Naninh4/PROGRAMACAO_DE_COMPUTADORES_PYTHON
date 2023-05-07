@@ -1,0 +1,13 @@
+divisores(n: Inteiro) =
+  para i de 1 até n
+    se n mod i == 0 gere i
+  fim
+
+é_primo(n: Inteiro) = n > 1 e divisores(n) == [1, n]
+
+para n de 1 até 100 faça
+  a = n * n + n + 41
+  se não é_primo(a) então
+    escreva "Encontrei um contra-exemplo: {n}, {n}² + {n} + 41 = {a}, {a} não é primo"
+  fim
+fim
