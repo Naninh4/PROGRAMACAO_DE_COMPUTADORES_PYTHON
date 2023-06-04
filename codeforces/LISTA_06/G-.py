@@ -31,8 +31,3 @@ def dia(dia, mes, ano):
                 return "Data Invalida"
     else: 
         return "Data Invalida"
-
-
-diaa, mes, ano = map(int,input().split("/"))
-dia(diaa, mes, ano)
-print(dia(diaa, mes, ano))
