@@ -22,6 +22,7 @@ int main(){
         }
         if (aux == palavra.size()) posicoes++;
         crib.erase(crib.begin());
+        cout << a;
         
     }
 
