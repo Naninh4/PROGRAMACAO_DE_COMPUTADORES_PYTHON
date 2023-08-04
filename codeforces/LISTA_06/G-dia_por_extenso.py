@@ -31,3 +31,5 @@ def dia(dia, mes, ano):
                 return "Data Invalida"
     else: 
         return "Data Invalida"
+diav, mes, ano = map(int,input().split())
+print(dia(diav, mes, ano))
