@@ -8,3 +8,5 @@
 
 Notas para a desenvolvedora: Livia.
 * Falta resolver um probleminha no exercício G :(*
+06/08/2023
+> Resolvi o problema, era só pq eu tava escrevendo "março" com "ç", troquei por "c" e deu certo :)

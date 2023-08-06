@@ -2,7 +2,7 @@ def dia(dia, mes, ano):
     meses={
         1: "janeiro", #31
         2: "fevereiro",#28
-        3: "março",#31
+        3: "marco",#31
         4: "abril",#30
         5: "maio",#31
         6: "junho",#30
@@ -13,6 +13,7 @@ def dia(dia, mes, ano):
         11: "novembro",#30
         12: "dezembro"#31
     }
+    
     if mes > 0 and mes <=12:
         if mes == 1 or  mes == 3  or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:   
             if dia > 0 and dia <=31:
@@ -31,5 +32,3 @@ def dia(dia, mes, ano):
                 return "Data Invalida"
     else: 
         return "Data Invalida"
-diav, mes, ano = map(int,input().split())
-print(dia(diav, mes, ano))
